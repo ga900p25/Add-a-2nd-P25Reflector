@@ -1,17 +1,17 @@
 #!/bin/bash
 ### BEGIN INIT INFO
 #
-# Provides:             P25Reflector
+# Provides:             P25Reflector2
 # Required-Start:       $all
 # Required-Stop:
 # Default-Start:        2 3 4 5
 # Default-Stop:         0 1 6
-# Short-Description:    Example startscript P25Reflector
+# Short-Description:    Example startscript P25Reflector2
 
 #
 ### END INIT INFO
 ## Fill in name of program here.
-PROG="P25Reflector"
+PROG="P25Reflector2"
 PROG_PATH="/usr/local/bin/"
 PROG_ARGS="/opt/P25Reflector2/P25Reflector2.ini"
 PIDFILE="/var/run/P25Reflector2.pid"
